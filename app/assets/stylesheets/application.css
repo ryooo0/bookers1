@@ -42,22 +42,16 @@
 
 .index-header {
   font-size: 25px;
-  margin: 25px 35px 0 35px;
+  margin: 15px 35px 0 35px;
 }
 
 .index-main {
   width: auto;
-  margin: 30px 40px;
+  margin: 10px 40px 30px;
 }
 
 .index-main-topic {
   font-size: 12px;
-}
-.index-main-title {
-}
-.index-main-body {
-}
-.index-main-blank {
 }
 
 .index-main-box {
@@ -136,12 +130,23 @@ h4 {
 
 .edit-header {
   font-size: 25px;
-  margin: 25px 35px 0 35px;
+  margin: 25px 0 0 35px;
 }
 
 .edit-message {
   color: red;
   margin: 35px 0 35px 35px;
+  font-size: 12px;
+}
+
+.edit-form {
+  padding-top: 0;
+}
+
+.edit-post-title,
+.edit-post-body,
+.edit-post-button {
+  margin: 0 35px 10px;
   font-size: 12px;
 }
 
