@@ -89,6 +89,12 @@
   font-size: 12px;
 }
 
+.index-errormessage {
+  color: red;
+  margin: 35px 0 35px 35px;
+  font-size: 12px;
+}
+
 h4 {
   font-weight: lighter;
 }

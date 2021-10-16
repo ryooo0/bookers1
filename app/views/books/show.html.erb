@@ -7,7 +7,6 @@
 </div>
 
 <div class="show-main">
-
   <div class="show-title">
     <b>Title: </b>
     <p><%= @book.title %></p>
@@ -20,7 +19,7 @@
 
   <div class="show-link">
     <div class="show-link-edit">
-      <%= link_to "Edit", edit_post_path(@book.id) %>
+      <%= link_to "Edit", edit_book_path(@book.id) %>
     </div>
     <div class="show-link-line">
       |
@@ -29,5 +28,5 @@
       <%= link_to "Back", :books %>
     </div>
   </div>
-
+  
 </div>
