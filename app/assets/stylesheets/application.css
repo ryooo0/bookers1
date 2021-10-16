@@ -1,0 +1,152 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-header {
+  display: block;
+}
+
+.top-header-title {
+  margin: 23px 35px;
+  font-size: 26px;
+}
+
+.top-text {
+  font-size: 13px;
+  margin: 24px 65px 28px 65px;
+}
+
+.index-message {
+  color: green;
+  margin: 35px 0 35px 30px;
+  font-size: 12px;
+}
+
+.index-header {
+  font-size: 25px;
+  margin: 25px 35px 0 35px;
+}
+
+.index-main {
+  width: auto;
+  margin: 30px 40px;
+}
+
+.index-main-topic {
+  font-size: 12px;
+}
+.index-main-title {
+}
+.index-main-body {
+}
+.index-main-blank {
+}
+
+.index-main-box {
+  font-size: 13px;
+}
+.index-main-line {
+  margin: 50px;
+}
+.index-main-titlebox,
+.index-main-bodybox,
+.index-main-buttonbox {
+  padding-right: 10px;
+}
+
+
+.index-postname {
+  font-size: 20px;
+  margin: 20px 35px 10px 35px;
+}
+
+.index-post {
+  margin: 35px 35px;
+}
+
+.index-post-title,
+.index-post-body,
+.index-post-button {
+  margin: 10px 35px;
+  font-size: 12px;
+}
+
+h4 {
+  font-weight: lighter;
+}
+
+.show-message {
+  color: green;
+  margin: 35px 0 35px 70px;
+  font-size: 12px;
+}
+
+.show-main {
+  margin: 31px 35px 0 35px;
+}
+
+.show-title,
+.show-body {
+  margin: 25px 35px 35px 35px;
+  font-size: 12px;
+  display: flex;
+}
+
+.show-link {
+  font-size: 12px;
+  display: flex;
+}
+
+.show-link-edit,
+.show-link-line,
+.show-link-back {
+  margin-right: 7px;
+}
+
+
+.show-message {
+  color: green;
+  margin: 35px 0 35px 70px;
+  font-size: 12px;
+}
+
+.edit-header {
+  font-size: 25px;
+  margin: 25px 35px 0 35px;
+}
+
+.edit-message {
+  color: red;
+  margin: 35px 0 35px 35px;
+  font-size: 12px;
+}
+
+.edit-link {
+  margin: 0 35px 0 35px;
+  display: flex;
+  font-size: 12px;
+}
+
+.edit-link-show,
+.edit-link-line,
+.edit-link-back {
+  margin-right: 7px;
+}

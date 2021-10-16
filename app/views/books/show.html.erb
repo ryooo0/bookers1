@@ -1,0 +1,33 @@
+<div class="show-message">
+  <% if flash[:notice] %>
+    <b id="notice">
+      <%= flash[:notice] %>
+    </b>
+  <% end %>
+</div>
+
+<div class="show-main">
+
+  <div class="show-title">
+    <b>Title: </b>
+    <p><%= @book.title %></p>
+  </div>
+
+  <div class="show-body">
+    <b>Body: </b>
+    <p><%= @book.body %></p>
+  </div>
+
+  <div class="show-link">
+    <div class="show-link-edit">
+      <%= link_to "Edit", edit_post_path(@book.id) %>
+    </div>
+    <div class="show-link-line">
+      |
+    </div>
+    <div class="show-link-back">
+      <%= link_to "Back", :books %>
+    </div>
+  </div>
+
+</div>
